@@ -33,3 +33,7 @@ Create a reusable Navigation Component
 ## Step 8
 
 Create a Social Media footer
+
+## Step 9
+
+Make site responsive
