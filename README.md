@@ -25,3 +25,7 @@ Add some styling to individual pages
 ## Step 6
 
 Add site-wide styling
+
+## Step 7
+
+Create a reusable Navigation Component
