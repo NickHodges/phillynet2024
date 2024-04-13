@@ -13,3 +13,7 @@ Add a simple about page to illustrate how pages get added
 
 Add blog posts and see markdown in action
 
+# Step 4
+
+Add dynamic content with Front Matter and Typescript
+
