@@ -29,3 +29,7 @@ Add site-wide styling
 ## Step 7
 
 Create a reusable Navigation Component
+
+## Step 8
+
+Create a Social Media footer
