@@ -9,3 +9,7 @@ A basic, barebones Astro application build from the command line
 
 Add a simple about page to illustrate how pages get added
 
+# Step 3
+
+Add blog posts and see markdown in action
+
