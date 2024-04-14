@@ -45,3 +45,7 @@ Make site responsive
 ## Step 11
 
 Build a layout for the blog posts
+
+## Step 12
+
+Combine layouts
