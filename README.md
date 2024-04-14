@@ -37,3 +37,7 @@ Create a Social Media footer
 ## Step 9
 
 Make site responsive
+
+## Step 10
+
+ Put common HTML structure into a Layout
