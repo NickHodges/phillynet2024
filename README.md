@@ -48,4 +48,8 @@ Build a layout for the blog posts
 
 ## Step 12
 
-Combine layouts
+Combine and nest layout
+
+## Step 13
+
+Create blog post component and automate list of posts
