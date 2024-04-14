@@ -41,3 +41,7 @@ Make site responsive
 ## Step 10
 
  Put common HTML structure into a Layout
+
+## Step 11
+
+Build a layout for the blog posts
