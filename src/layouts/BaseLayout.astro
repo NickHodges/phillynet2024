@@ -1,6 +1,7 @@
 ---
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import { ViewTransitions } from 'astro:transitions';
 import '../styles/global.css';
 //const pageTitle = 'Home Page';
 const { pageTitle } = Astro.props;
@@ -13,19 +14,18 @@ const { pageTitle } = Astro.props;
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
+    <ViewTransitions />
   </head>
   <body>
     <Header />
-    <h1>{pageTitle}</h1>
+    <h1 transition:animate="slide">{pageTitle}</h1>
     <slot />
     <Footer />
     <script>
-      document.querySelector('.hamburger')?.addEventListener('click', () => {
-        const navLinks = document.querySelector('.nav-links');
-        if (navLinks) {
-          // Check if navLinks is not null
-          navLinks.classList.toggle('expanded');
-        }
+      document.addEventListener('astro:page-load', () => {
+        document.querySelector('.hamburger').addEventListener('click', () => {
+          document.querySelector('.nav-links').classList.toggle('expanded');
+        });
       });
     </script>
   </body>
