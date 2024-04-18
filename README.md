@@ -86,3 +86,4 @@ Add Dark/Light theming
 * Uses [Zod](https://zod.dev/) library typing system
 * Need to run `npm astro sync`
 * No longer need the `layout` entry in frontmatter of posts
+* Update RSS feed to include content
