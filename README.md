@@ -77,3 +77,12 @@ Add Astro Islands with Preact
 Add Dark/Light theming
 
 * Shows adding pure Javascript to project
+
+## Step 18
+
+* Astro Collections!
+* They are powerful way to simplify content management
+* Leverages Typescript typing
+* Uses [Zod](https://zod.dev/) library typing system
+* Need to run `npm astro sync`
+* No longer need the `layout` entry in frontmatter of posts
