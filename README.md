@@ -62,3 +62,10 @@ Full support for tags, including tags in blog post layout
 ## Step 15
 
 Add an RSS feed
+
+
+## Step 16
+
+Add Astro Islands with Preact
+
+*
