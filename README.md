@@ -76,4 +76,4 @@ Add Astro Islands with Preact
 
 Add Dark/Light theming
 
-* Shows adding pure Javascript to projecgt
+* Shows adding pure Javascript to project
