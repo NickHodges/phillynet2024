@@ -53,3 +53,9 @@ Combine and nest layout
 ## Step 13
 
 Create blog post component and automate list of posts
+Add dynamic page for tags
+
+## Step 14
+
+Generate tag page
+
