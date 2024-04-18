@@ -57,5 +57,4 @@ Add dynamic page for tags
 
 ## Step 14
 
-Generate tag page
-
+Full support for tags, including tags in blog post layout
