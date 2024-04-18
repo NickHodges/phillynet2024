@@ -71,3 +71,9 @@ Add Astro Islands with Preact
 
 * Execute `npx astro add preact`
 * Will make changes to `astro.config.mjs` and 'tsconfig.json`
+
+## Step 17
+
+Add Dark/Light theming
+
+* Shows adding pure Javascript to projecgt
