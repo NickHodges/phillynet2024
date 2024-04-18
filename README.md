@@ -63,9 +63,8 @@ Full support for tags, including tags in blog post layout
 
 Add an RSS feed
 
+* Execute `npm install @astrojs/rss`
 
 ## Step 16
 
 Add Astro Islands with Preact
-
-*
