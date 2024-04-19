@@ -92,3 +92,6 @@ Add Dark/Light theming
 * Will make changes to `astro.config.mjs` and 'tsconfig.json`
 
 ## Step 19
+
+* Use the Astro:image component to easily add images
+* Add an image to the About page
