@@ -100,3 +100,7 @@ Add Dark/Light theming
 
 * Deploy the app to Vercel as a Server-side rendered app
 * Deploy via the vercel command line: `npm install -g vercel`
+
+# Step 21
+
+* Really dig into MDX
