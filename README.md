@@ -53,21 +53,15 @@ Combine and nest layout
 ## Step 13
 
 Create blog post component and automate list of posts
-Add dynamic page for tags
 
 ## Step 14
 
-Full support for tags, including tags in blog post layout
+Blog post with MDX
+
+* install astro MDX support with `npx astro add mdx`
 
 ## Step 15
 
 Add an RSS feed
 
 * Execute `npm install @astrojs/rss`
-
-## Step 16
-
-Add Astro Islands with Preact
-
-* Execute `npx astro add preact`
-* Will make changes to `astro.config.mjs` and 'tsconfig.json`
