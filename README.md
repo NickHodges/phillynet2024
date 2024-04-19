@@ -53,17 +53,20 @@ Combine and nest layout
 ## Step 13
 
 Create blog post component and automate list of posts
-Add dynamic page for tags
 
 ## Step 14
 
-Full support for tags, including tags in blog post layout
+Blog post with MDX
+
+* install astro MDX support with `npx astro add mdx`
 
 ## Step 15
 
 Add an RSS feed
 
 * Execute `npm install @astrojs/rss`
+* Add dynamic page for tags
+* Full support for tags, including tags in blog post layout
 
 ## Step 16
 
@@ -86,4 +89,4 @@ Add Dark/Light theming
 * Uses [Zod](https://zod.dev/) library typing system
 * Need to run `npm astro sync`
 * No longer need the `layout` entry in frontmatter of posts
-* Update RSS feed to include content
+* Will make changes to `astro.config.mjs` and 'tsconfig.json`
