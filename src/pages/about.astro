@@ -1,5 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { Image } from 'astro:assets';
+import barneyfife from '../../public/Barney.JPG';
+
+const altTagForBarney = 'An image of the great Barney Fife';
 
 const pageTitle = 'About Me';
 
@@ -22,6 +26,7 @@ const textCase = 'uppercase';
 ---
 
 <BaseLayout pageTitle={pageTitle}>
+  <Image src={barneyfife} alt={altTagForBarney} loading="lazy" width="100" />
   <p>Here are a few facts about me:</p>
   <ul>
     <li>My name is {identity.firstName}.</li>
