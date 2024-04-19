@@ -9,8 +9,11 @@ pubDate: 2022-08-08
 tags: ["astro", "successes"]
 ---
 
+import Button from '../../components/mdxbutton.astro';
 export const title = 'my first MDX post'
 
 Okay, so this post is {title}.
 
-You can also access information from the frontmatter. For instance, here is the description for this spage: {frontmatter.description}
+You can also access information from the frontmatter. For instance, here is the description for this page: ***{frontmatter.description}***
+
+<Button caption="Rendered in MDX!" />
