@@ -53,3 +53,10 @@ Combine and nest layout
 ## Step 13
 
 Create blog post component and automate list of posts
+
+## Step 14
+
+Blog post with MDX
+
+* install astro MDX support with `npx astro add mdx`
+* 
