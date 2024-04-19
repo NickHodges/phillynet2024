@@ -80,4 +80,4 @@ Add Astro Islands with Preact
 Add Dark/Light theming
 
 * Shows adding pure Javascript to project
-* Will make changes to `astro.config.mjs` and 'tsconfig.json`
+
