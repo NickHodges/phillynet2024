@@ -95,3 +95,7 @@ Add Dark/Light theming
 
 * Use the Astro:image component to easily add images
 * Add an image to the About page
+
+## Step 20
+
+* Deploy the app to Vercel as a Server-side rendered app
