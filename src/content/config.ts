@@ -5,14 +5,14 @@ const postsCollection = defineCollection({
     type: 'content',
     schema: z.object({
       title: z.string(),
-      pubDate: z.date(),
-      description: z.string(),
+      pubDate: z.date().transform((val) => new Date(val)),
+      description: z.string().min(10).max(150),
       author: z.string(),
       image: z.object({
         url: z.string(),
         alt: z.string()
-      }),
-      tags: z.array(z.string())
+      }).optional(),
+      tags: z.array(z.string()).default([])
     })
 });
 // Export a single `collections` object to register your collection(s)
