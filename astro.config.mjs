@@ -8,6 +8,6 @@ import vercel from "@astrojs/vercel/serverless";
 export default defineConfig({
   site: "https://example.com",
   integrations: [mdx(), preact()],
-  output: "server",
+  output: "hybrid",
   adapter: vercel()
 });
