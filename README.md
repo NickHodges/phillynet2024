@@ -90,3 +90,5 @@ Add Dark/Light theming
 * Need to run `npm astro sync`
 * No longer need the `layout` entry in frontmatter of posts
 * Will make changes to `astro.config.mjs` and 'tsconfig.json`
+
+## Step 19
