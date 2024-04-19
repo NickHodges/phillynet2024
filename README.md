@@ -65,3 +65,10 @@ Blog post with MDX
 Add an RSS feed
 
 * Execute `npm install @astrojs/rss`
+
+## Step 16
+
+Add Astro Islands with Preact
+
+* Execute `npx astro add preact`
+* Will make changes to `astro.config.mjs` and 'tsconfig.json`
