@@ -99,3 +99,5 @@ Add Dark/Light theming
 ## Step 20
 
 * Deploy the app to Vercel as a Server-side rendered app
+* Deploy via the vercel command line: `npm install -g vercel`
+*
